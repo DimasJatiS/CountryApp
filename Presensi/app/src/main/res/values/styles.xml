@@ -2,5 +2,6 @@
 <resources>
     <style name="CustomPickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
         <item name="android:windowBackground">@drawable/dialog_background</item>
-        <item name="colorAccent">@color/purple_500</item> </style>
+        <item name="colorAccent">@color/purple_500</item>
+    </style>
 </resources>

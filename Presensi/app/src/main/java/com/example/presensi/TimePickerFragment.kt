@@ -1,5 +1,5 @@
 // File: TimePickerFragment.kt
-package com.example.presensi // Sesuaikan dengan paket Anda
+package com.example.presensi
 
 import android.app.Dialog
 import android.app.TimePickerDialog
@@ -16,14 +16,14 @@ class TimePickerFragment : DialogFragment() {
         val hour = calendar.get(Calendar.HOUR_OF_DAY)
         val minute = calendar.get(Calendar.MINUTE)
 
-        // Buat TimePickerDialog dengan MENYERTAKAN TEMA KUSTOM
+        // Buat TimePickerDialog
         val dialog = TimePickerDialog(
             context,
-            R.style.CustomPickerDialogTheme, // <-- TERAPKAN TEMA DI SINI
+            R.style.CustomPickerDialogTheme,
             listener,
             hour,
             minute,
-            false // Gunakan format 12 jam (false) atau 24 jam (true)
+            false
         )
 
         return dialog

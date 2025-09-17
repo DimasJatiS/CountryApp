@@ -17,6 +17,7 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    // Fitur viewBinding
     buildFeatures {
         viewBinding = true
     }
@@ -41,6 +42,7 @@ android {
 
 dependencies {
 
+    // Implementasi cardView
     implementation("androidx.cardview:cardview:1.0.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

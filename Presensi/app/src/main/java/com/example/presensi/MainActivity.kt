@@ -20,23 +20,23 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Panggil semua fungsi setup
+        // Setup spinner
         setupSpinner()
         setupCalendarView()
         setupTimePicker()
 
-        // Atur listener untuk tombol Submit
+        // Setup button
         setupSubmitButton()
         setupExitButton()
     }
 
     private fun setupSpinner() {
-        // ... (kode setupSpinner Anda yang sudah ada tetap sama) ...
         val keteranganArray = resources.getStringArray(R.array.keterangan)
         val adapterKeterangan = ArrayAdapter(this, android.R.layout.simple_spinner_item, keteranganArray)
         adapterKeterangan.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.spinnerKeterangan.adapter = adapterKeterangan
 
+        // Setup Spinner alasan "Keterangan"
         binding.spinnerKeterangan.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 val selectedItem = parent?.getItemAtPosition(position).toString()
@@ -51,12 +51,14 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        // month Spinner
         val calendar = Calendar.getInstance()
         val monthAdapter = ArrayAdapter.createFromResource(this, R.array.months, android.R.layout.simple_spinner_item)
         monthAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.spinnerMonth.adapter = monthAdapter
         binding.spinnerMonth.setSelection(calendar.get(Calendar.MONTH))
 
+        // year Spinner
         val currentYear = calendar.get(Calendar.YEAR)
         val years = ArrayList<String>()
         for (i in (currentYear - 100)..(currentYear + 100)) {
@@ -77,11 +79,11 @@ class MainActivity : AppCompatActivity() {
         binding.spinnerYear.onItemSelectedListener = selectionListener
     }
 
+    // Setup Calendar (memilih dan pesan toast)
     private fun setupCalendarView() {
-        // ... (kode setupCalendarView Anda tetap sama) ...
         binding.calendarView.setOnDateChangeListener { view, year, month, dayOfMonth ->
             val selectedDate = "$dayOfMonth/${month + 1}/$year"
-            // Toast.makeText(this, "Tanggal Dipilih: $selectedDate", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Tanggal Dipilih: $selectedDate", Toast.LENGTH_SHORT).show()
             binding.spinnerMonth.setSelection(month)
             val yearStr = year.toString()
             val adapter = binding.spinnerYear.adapter as ArrayAdapter<String>
@@ -92,8 +94,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // setup update calendar
     private fun updateCalendarDate() {
-        // ... (kode updateCalendarDate Anda tetap sama) ...
         val selectedMonth = binding.spinnerMonth.selectedItemPosition
         val selectedYear = binding.spinnerYear.selectedItem.toString().toInt()
         val calendar = Calendar.getInstance()
@@ -102,16 +104,16 @@ class MainActivity : AppCompatActivity() {
         binding.calendarView.date = calendar.timeInMillis
     }
 
+    // Setup Picker waktu dan pesan Toast
     private fun setupTimePicker() {
-        // ... (kode setupTimePicker Anda tetap sama) ...
         binding.timePickerSpinner.setIs24HourView(false)
         binding.timePickerSpinner.setOnTimeChangedListener { view, hourOfDay, minute ->
-            // val selectedTime = String.format("%02d:%02d", hourOfDay, minute)
-            // Toast.makeText(this, "Waktu berubah menjadi: $selectedTime", Toast.LENGTH_SHORT).show()
+             val selectedTime = String.format("%02d:%02d", hourOfDay, minute)
+             Toast.makeText(this, "Waktu berubah menjadi: $selectedTime", Toast.LENGTH_SHORT).show()
         }
     }
 
-    // =================== FUNGSI BARU UNTUK TOMBOL SUBMIT ===================
+    // setup button submit
     private fun setupSubmitButton() {
         binding.btnSubmit.setOnClickListener {
             // 1. Ambil data tanggal dari CalendarView
@@ -153,6 +155,8 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, ringkasan, Toast.LENGTH_LONG).show()
         }
     }
+
+    // Setup button exit aplikasi
     private fun setupExitButton() {
         binding.btnExit.setOnClickListener {
             val dialog = DialogExit()
