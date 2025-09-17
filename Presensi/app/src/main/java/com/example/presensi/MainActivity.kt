@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupSpinner() {
+
+        // Spinner keterangan
         val keteranganArray = resources.getStringArray(R.array.keterangan)
         val adapterKeterangan = ArrayAdapter(this, android.R.layout.simple_spinner_item, keteranganArray)
         adapterKeterangan.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
