@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".LoginFragment">
+
+    <!--Judul-->
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--Membuat isi untuk username-->
+    <EditText
+        android:id="@+id/edt_username_login"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:padding="12dp"
+        android:hint="Username"
+        android:backgroundTint="@color/dark_grey"
+        android:background="@drawable/bg_edittext"
+        android:inputType="text"
+        tools:textStyle="bold"
+        android:textColor="@color/darker_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_title" />
+
+    <!--Membuat isi untuk password-->
+    <EditText
+        android:id="@+id/edt_password_login"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:hint="Password"
+        android:backgroundTint="@color/dark_grey"
+        android:background="@drawable/bg_edittext"
+        android:inputType="textPassword"
+        tools:textStyle="bold"
+        android:textColor="@color/darker_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_username_login" />
+
+    <!--Membuat checkbox remember me-->
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        app:layout_constraintTop_toBottomOf="@id/edt_password_login"
+        app:layout_constraintStart_toStartOf="@id/edt_password_login"
+        android:layout_marginTop="16dp"/>
+
+    <!--Membuat kalimat forget password-->
+    <TextView
+        android:id="@+id/tvForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password ?"
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/checkBox"
+        app:layout_constraintEnd_toEndOf="@id/edt_password_login"/>
+
+    <!--Membuat tombol login-->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/blue"
+        android:text="Login"
+        tools:textStyle="bold"
+        app:cornerRadius="12dp"
+        app:layout_constraintStart_toStartOf="@id/edt_password_login"
+        app:layout_constraintEnd_toEndOf="@id/edt_password_login"
+        app:layout_constraintTop_toBottomOf="@id/checkBox"
+        tools:ignore="RtlHardcoded" />
+
+    <!--Membuat guideline untuk membagi halaman-->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <!--Membuat kalimat new member-->
+    <TextView
+        android:id="@+id/txt_newmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="New Member?"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/btn_login" />
+
+    <!--Membuat button ke halmaan register-->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:textColor="@color/blue"
+        android:text="Register"
+        app:layout_constraintTop_toTopOf="@id/txt_newmember"
+        app:layout_constraintBottom_toBottomOf="@id/txt_newmember"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

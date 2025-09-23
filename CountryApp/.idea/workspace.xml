@@ -21,20 +21,119 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b80faa-ef7e-40dd-81b8-8647288de40c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Presensi/app/src/main/java/com/example/presensi/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Presensi/app/src/main/java/com/example/presensi/TimePickerFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Presensi/app/src/main/res/drawable/dialog_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Presensi/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Presensi/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b1b80faa-ef7e-40dd-81b8-8647288de40c" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/../MyCourse/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/androidTest/java/com/example/mycourse/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/java/com/example/mycourse/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/java/com/example/mycourse/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/java/com/example/mycourse/MateriFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/java/com/example/mycourse/QuizFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/java/com/example/mycourse/SectionsPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/drawable/baseline_home_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/drawable/rounded_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/layout/fragment_materi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/layout/fragment_quiz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/menu/menu_options.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/app/src/test/java/com/example/mycourse/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyCourse/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/deviceManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/java/com/example/mypresensiapp/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/java/com/example/mypresensiapp/LoginFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/java/com/example/mypresensiapp/RegisterFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/java/com/example/mypresensiapp/SectionPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/res/drawable/outline_apps_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/res/drawable/rounded_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/res/drawable/shape_button_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/res/drawable/shape_edittext_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/res/menu/menu_options.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiAPP2/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/java/com/example/mypresensiapp/DialogExit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/java/com/example/mypresensiapp/LoginFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/java/com/example/mypresensiapp/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/java/com/example/mypresensiapp/RegisterFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/java/com/example/mypresensiapp/SectionsPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/java/com/example/mypresensiapp/WelcomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/res/drawable/outline_accessibility_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/res/drawable/rounded_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/res/layout/dialog_exit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/res/layout/fragment_welcome.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/res/menu/menu_options.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyPresensiApp/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/java/com/example/tugasmenggila/AuthFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/java/com/example/tugasmenggila/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/java/com/example/tugasmenggila/LoginFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/java/com/example/tugasmenggila/SectionPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/java/com/example/tugasmenggila/registerFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/res/drawable/baseline_home_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/res/drawable/bg_edittext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/res/drawable/rounded_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/res/layout/fragment_auth.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/res/layout/fragment_home_welcome.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/res/menu/menu_options.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TugasMenggila/app/src/main/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/countryapp/DatePicker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/countryapp/DatePicker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/countryapp/DialogExit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/countryapp/DialogExit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/countryapp/TimePicker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/countryapp/TimePicker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_exit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_exit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyApplicationCountry_App/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplicationCountry_App/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyApplicationCountry_App/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplicationCountry_App/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +185,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/DimasJatiS/Country_App.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/DimasJatiS/presensiAPP.git&quot;,
     &quot;accountId&quot;: &quot;182e1e5c-98f1-4079-8c63-f1b5c083dda6&quot;
   }
 }</component>
@@ -98,34 +197,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.MainActivity.executor": "Run",
-    "Android App.app.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/OMEN/AndroidStudioProjects/CountryApp",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.MainActivity.executor&quot;: &quot;Run&quot;,
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/OMEN/AndroidStudioProjects/CountryApp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Android App.MainActivity">
     <configuration name="MainActivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
-      <module name="Country_App.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -282,7 +381,20 @@
       <option name="presentableId" value="Default" />
       <updated>1757551124431</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1758123629598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758123629598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment"
+    android:padding="16dp">
+
+    <!--Membuat Judul-->
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--Membuat isi untuk username-->
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/bg_edittext"
+        android:backgroundTint="@color/dark_grey"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@color/darker_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_title" />
+
+    <!--Membuat isi untuk email-->
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:hint="Email"
+        android:backgroundTint="@color/dark_grey"
+        android:background="@drawable/bg_edittext"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/darker_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_username"/>
+
+    <!--Membuat isi untuk nomor telepon-->
+    <EditText
+        android:id="@+id/edt_Phone"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:hint="Phone"
+        android:backgroundTint="@color/dark_grey"
+        android:background="@drawable/bg_edittext"
+        android:inputType="number"
+        android:textColor="@color/darker_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_email"/>
+
+    <!--Membuat isi untuk password-->
+    <EditText
+        android:id="@+id/edt_pw"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:hint="Password"
+        android:backgroundTint="@color/dark_grey"
+        android:background="@drawable/bg_edittext"
+        android:inputType="textPassword"
+        android:textColor="@color/darker_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_Phone"/>
+
+    <!--Membuat checkbox-->
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/toc"
+        app:layout_constraintTop_toBottomOf="@id/edt_pw"
+        app:layout_constraintStart_toStartOf="@id/edt_pw"
+        android:layout_marginTop="16dp"/>
+
+    <!--Membuat tombol untuk register-->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/blue"
+        android:text="Register"
+        tools:textStyle="bold"
+        app:cornerRadius="12dp"
+        app:layout_constraintStart_toStartOf="@id/edt_pw"
+        app:layout_constraintEnd_toEndOf="@id/edt_pw"
+        app:layout_constraintTop_toBottomOf="@id/checkBox"
+        tools:ignore="RtlHardcoded" />
+
+    <!--Membuat kalimat sudah punya akun-->
+    <TextView
+        android:id="@+id/txt_oldmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acc"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_register"/>
+
+    <!--Membuat tombol ke halaman login-->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/transparent"
+        android:textColor="@color/blue"
+        android:text="Login"
+        app:layout_constraintTop_toBottomOf="@id/txt_oldmember"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
